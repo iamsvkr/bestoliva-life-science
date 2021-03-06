@@ -1,0 +1,21 @@
+.Nav {
+  display: flex;
+  padding: 1rem 2rem;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  box-shadow: 1px ​1px 10px;
+
+  .left {
+    color: rgb(52, 52, 180);
+  }
+
+  .right {
+    padding-top: 0.75rem;
+    display: flex;
+
+    > div {
+      padding-left: 1rem;
+    }
+  }
+}
