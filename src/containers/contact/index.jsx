@@ -9,7 +9,7 @@ const Contact = () => {
       <Nav />
       <div className="Contact container">
         <div className='card my-5 shadow rounded' style={{width: '20rem'}}>
-          <div class="card-body">
+          <div className="card-body">
             <h1>Contact us</h1>
           </div>
         </div>
@@ -19,6 +19,10 @@ const Contact = () => {
         <div className='address mt-3'>
           <p style={{fontWeight: '700', paddingRight: '2rem'}}>Address:</p>
           <p>3325, kaccha bazar, Ambala Cantt, Haryana, 133001, India</p>
+        </div>
+        <div className='contact-number'>
+          <p style={{fontWeight: '700', paddingRight: '2rem'}}>Contact Number:</p>
+          <p>(+91) 9802303036</p>
         </div>
       </div>
       <Form />

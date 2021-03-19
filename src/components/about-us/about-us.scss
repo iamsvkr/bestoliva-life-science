@@ -1,0 +1,20 @@
+.AboutUs {
+  background-image: linear-gradient(lightgreen, cyan);
+  line-height: 1.5rem;
+  padding: 1rem;
+  text-align: justify;
+  
+  .heading {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+      font-weight: 400;
+    }
+  }
+
+  .content {
+    padding-top: 1rem;
+  }
+}
